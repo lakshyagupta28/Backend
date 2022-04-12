@@ -1,0 +1,31 @@
+
+
+  Let us understand what is a SERVER?
+
+
+  Our browser converts the request to an address and it is sent to the ISP and then ISP returns the file 
+  to the our computer and website is displayed.
+
+  
+                  
+                  Opens a TCP/IS connection
+                  via socket. Request for the 
+                  document.                        
+       Computer  ------------------------->  Server
+                 <-------------------------
+                  
+                 Wait for the reply, once it gets
+                 the reply the socket is closed.
+
+  Lets dive into coding:-
+
+  index.js has the created server and the package.json is the created server
+
+  So far we have created a blank server that has no response, lets now create server with a response-
+
+  Reading and serving the HTML page from a file
+  And installing Nodemon (Node Monitor) that takes care for restarting the server
+
+
+  Extending to Multiple Pages
+
